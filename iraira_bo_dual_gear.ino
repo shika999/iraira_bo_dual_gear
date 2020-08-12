@@ -30,10 +30,10 @@ int cnt = 0; //256段階でLEDをフェードさせるためのカウント
 int AnalogPin0 = 5 ; //ポテンショメータのアナログピン
 int val0 = 0 ; //ポテンショメータのアナログ値
 
-void StepperMove_A();
-void StepperMove_B();
-void LedGradation_A();
-void LedGradation_B();
+void StepperMove_A(); //パターンA
+void StepperMove_B(); //パターンB
+void LedGradation_A(); //パターンA
+void LedGradation_B(); //パターンB
 
 void setup(){    
     ChangeTime = millis();

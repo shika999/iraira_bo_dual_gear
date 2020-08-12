@@ -7,7 +7,7 @@ void LedGradation_A() {
   switch(ChangeType){     
     case 0:
      for(int i=0;i<MAXPIXELS;i+=7){
-     //七色レインボー表示
+     //七色レインボー表示1
      pixels.setPixelColor(i, pixels.Color(255,0,0));//赤
      pixels.setPixelColor(i+1, pixels.Color(243,110,0));//橙
      pixels.setPixelColor(i+2, pixels.Color(255,255,0));//黄
@@ -21,7 +21,7 @@ void LedGradation_A() {
     
     case 1:
      for(int i=0;i<MAXPIXELS;i+=7){
-     //七色レインボー表示
+     //七色レインボー表示2
      pixels.setPixelColor(i, pixels.Color(0,0,255));//青
      pixels.setPixelColor(i+1, pixels.Color(128,0,128));//紫   
      pixels.setPixelColor(i+2, pixels.Color(255,0,0));//赤
@@ -35,7 +35,7 @@ void LedGradation_A() {
     
     case 2:
      for(int i=0;i<MAXPIXELS;i+=7){
-     //七色レインボー表示
+     //七色レインボー表示3
      pixels.setPixelColor(i, pixels.Color(255,255,0));//黄
      pixels.setPixelColor(i+1, pixels.Color(0,128,0));//緑
      pixels.setPixelColor(i+2, pixels.Color(0,255,255));//水
@@ -49,7 +49,7 @@ void LedGradation_A() {
     
     case 3:
      for(int i=0;i<MAXPIXELS;i+=7){
-     //七色レインボー表示
+     //七色レインボー表示4
      pixels.setPixelColor(i, pixels.Color(128,0,128));//紫   
      pixels.setPixelColor(i+1, pixels.Color(255,0,0));//赤
      pixels.setPixelColor(i+2, pixels.Color(243,110,0));//橙
@@ -63,7 +63,7 @@ void LedGradation_A() {
     
     case 4:
      for(int i=0;i<MAXPIXELS;i+=7){
-     //七色レインボー表示
+     //七色レインボー表示5
      pixels.setPixelColor(i, pixels.Color(0,255,255));//水
      pixels.setPixelColor(i+1, pixels.Color(0,0,255));//青
      pixels.setPixelColor(i+2, pixels.Color(128,0,128));//紫   
@@ -77,7 +77,7 @@ void LedGradation_A() {
     
    case 5:
      for(int i=0;i<MAXPIXELS;i+=7){
-     //七色レインボー表示
+     //七色レインボー表示6
      pixels.setPixelColor(i, pixels.Color(243,110,0));//橙
      pixels.setPixelColor(i+1, pixels.Color(255,255,0));//黄
      pixels.setPixelColor(i+2, pixels.Color(0,128,0));//緑
@@ -91,7 +91,7 @@ void LedGradation_A() {
     
     case 6:
      for(int i=0;i<MAXPIXELS;i+=7){
-     //七色レインボー表示
+     //七色レインボー表示7
      pixels.setPixelColor(i, pixels.Color(0,128,0));//緑
      pixels.setPixelColor(i+1, pixels.Color(0,255,255));//水
      pixels.setPixelColor(i+2, pixels.Color(0,0,255));//青
